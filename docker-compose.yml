@@ -1,0 +1,10 @@
+version: '3'
+services:
+  frp_client:
+    image: geektr/frp
+    restart: always
+    env_file:
+      - "$secrets_dir/frp/frp.env"
+    volumes:
+      - "$service_dir/conf/frp/frpc.ini:/etc/frp/frpc.ini:ro"
+    network_mode: "host"
