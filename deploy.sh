@@ -25,7 +25,7 @@ frp-client::utils::sync() {
 }
 
 # constants
-git_repo=https://github.com/geektr-cloud/service-template.git
+git_repo=https://github.com/geektr-cloud/frp-client.git
 default_deploy_dir=/srv/geektr.cloud
 default_backup_dir=/srv/geektr.cloud/.backups
 default_project_name=frp-client

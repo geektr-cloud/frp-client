@@ -4,7 +4,7 @@
 
 ```bash
 # source deploy script first
-source <(wget -qO- https://raw.githubusercontent.com/geektr-cloud/service-template/master/deploy.sh)
+source <(wget -qO- https://raw.githubusercontent.com/geektr-cloud/frp-client/master/deploy.sh)
 
 # update (init) project to local enviroment
 frp-client::update
